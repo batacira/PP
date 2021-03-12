@@ -180,7 +180,7 @@ switch (season) {
         
         break;
 
-    default: message3 = "Input must be a number between 1 and 12";
+    default: message3 = "Input must be a number between 1 and 12"
         
 }
 
