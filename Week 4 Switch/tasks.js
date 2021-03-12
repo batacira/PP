@@ -159,10 +159,10 @@ message3 = "";
 
 switch (season) {
     case 3:
-        case 4:
-            case 5:
-                    message3 = "Spring";
-                    break;
+    case 4:
+    case 5:
+        message3 = "Spring";
+        break;
     case 6:
     case 7:
     case 8:
@@ -177,11 +177,11 @@ switch (season) {
     case 1:
     case 2:
         message3 = "Winter";
-        
+
         break;
 
     default: message3 = "Input must be a number between 1 and 12"
-        
+
 }
 
 console.log(message3);
