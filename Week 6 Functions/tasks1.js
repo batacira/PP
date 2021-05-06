@@ -103,13 +103,7 @@ function horizontalChart2(num1, num2, num3) {
 console.log(horizontalChart2(3, 13, 3));
 
 
-function horizontalChart2() {
-    var star = '*';
 
-    
-}
-
-console.log(horizontalChart2(3, 13, 3));
 
 
 
@@ -198,3 +192,9 @@ function conc(string, num) {
 console.log(conc('Milos', 4));
 
 
+var a = 4;
+var b = 5;
+
+c = a;
+
+console.log(a);
