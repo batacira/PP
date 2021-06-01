@@ -14,10 +14,7 @@
             var id = firstLetter.toUpperCase() + lastLetter.toUpperCase() + this.id;
             return [id, this.name, this.price].join();
         }
-
     }
-    
-    
     
     function ShoppingBag() {
         this.list = [];
@@ -32,8 +29,6 @@
     
             var y = new Date();
             var ny = y.getFullYear();
-
-
             
             var danas = new Date(nm + '-' + nd + '-' + ny);
             var danasM = danas.getTime();
@@ -42,9 +37,6 @@
             var productDate = new Date(product.exDate);
             var exDateM = productDate.getTime();
         
-            
-
-
                 if(danasM < exDateM){
                     this.list.push(product);
                 }
