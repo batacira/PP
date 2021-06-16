@@ -56,7 +56,7 @@ Mobile.prototype.getData = function () {
 }
 
 Mobile.prototype.forAndroid = function () {
-    if (this.technologies === 'Android') {
+    if (this.platforms === 'Android') {
         return true;
     }
     else {
@@ -65,7 +65,7 @@ Mobile.prototype.forAndroid = function () {
 }
 
 var viber = new WebApp('Viber', 'CC', 5, 'www.viber.com', 'React');
-var biber = new Mobile('Viber2', 45, 5, 'www.viber.com', 'React');
+var biber = new Mobile('Biber', 'CC', 9, 'Android');
 
 
-console.log(viber.like());
+console.log(biber.forAndroid());
