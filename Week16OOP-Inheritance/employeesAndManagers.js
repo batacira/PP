@@ -61,4 +61,8 @@ Manager.prototype.changeDepartment = function (departmentName) {
 
 
 var fejza = new Developer('Fejza', 'Fejzic', 'Pekar', 40000, 'dsada');
-console.log(fejza.increaseSalary());
+// console.log(fejza.increaseSalary());
+
+var neko = new Manager('ejza', 'Fejzic', 'Pekar', 40000, 'dsada')
+neko.changeDepartment('dadada');
+console.log(neko);
